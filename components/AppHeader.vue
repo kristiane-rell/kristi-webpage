@@ -1,7 +1,7 @@
 <template>
   <div class="app-header">
     <NuxtLink class="main-row" to="/">
-      <div class="main-link">Kristi Rell</div>
+      <div class="main-link">Kristiane Rell</div>
     </NuxtLink>
     <div class="link-rows">
       <NuxtLink class="rows" to="/experience">
@@ -49,6 +49,8 @@
 <style scoped>
 .app-header {
   background-color: var(--color-secondary);
+  position: fixed;
+  top: 0;
   color: var(--color-text);
   width: 18vw;
   height: 100vh;
