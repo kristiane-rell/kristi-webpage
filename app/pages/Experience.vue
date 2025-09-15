@@ -96,11 +96,13 @@
 }
 
 .experience-card {
-    background-color: var(--color-secondary);
+    background-color: #fff8f42d;
+    color: var(--color-secondary);
     border-radius: 1.5rem;
     padding: 2rem;
     margin: 1.5rem 6rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
 
     .role {
         font-size: 1.3rem;
@@ -118,8 +120,9 @@
     }
     .responsibilities {
         font-size: 1.1rem;
+        font-weight: 600;
         padding: 1.3rem 0;
-        border-top: 1px solid #b9a19555;
+        border-top: 1px solid #ffe3d52c;
         margin: 0 -2rem 0 -2rem;;
         width: calc(100% + 4rem);
 
@@ -131,5 +134,9 @@
           }
         }
     }
+}
+
+.experience-card:hover {
+  background-color: rgba(253, 179, 150, 0.286);
 }
 </style>
