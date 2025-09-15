@@ -28,10 +28,10 @@
                     Coursework
                 </div>
             </NuxtLink>
-            <NuxtLink class="links" to="/about">
+            <NuxtLink class="links" to="/extracurriculars">
                 <div>
                     <Icon class="icon" name="material-symbols-light:star-outline-rounded" />
-                    About me!
+                    Extracurriculars
                 </div>
             </NuxtLink>
             <NuxtLink class="links" to="/contact">
