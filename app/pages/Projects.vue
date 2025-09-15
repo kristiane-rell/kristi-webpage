@@ -1,10 +1,10 @@
 <template>
-  <div class="experience-page">
+  <div class="project-page">
     <div class="title">
       Projects
     </div>
 
-    <div class="experience-card">
+    <div class="project-card">
       <div class="row">
         <div class="project-name">Dashboard Web Application</div>
         <div class="dates">May 2025 - August 2025</div>
@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <div class="experience-card">
+    <div class="project-card">
       <div class="row">
         <div class="project-name">Coverage Project</div>
         <div class="dates">May 2024 - August 2024</div>
@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <div class="experience-card">
+    <div class="project-card">
       <div class="row">
         <div class="project-name">University Final Exam Scheduler</div>
         <div class="dates">November 2024 - May 2025</div>
@@ -69,7 +69,7 @@
       </div>
     </div>
 
-    <div class="experience-card">
+    <div class="project-card">
       <div class="row">
         <div class="project-name">Climbing Website</div>
         <div class="dates">July 2025 - Present</div>
@@ -93,7 +93,7 @@
 </template>
 
 <style scoped>
-.experience-page {
+.project-page {
   width: 82vw;
   margin-left: 18vw;
 }
@@ -113,12 +113,14 @@
     color: var(--color-secondary);
 }
 
-.experience-card {
-    background-color: var(--color-secondary);
+.project-card {
+    background-color: #fff8f42d;
+    color: var(--color-secondary);
     border-radius: 1.5rem;
     padding: 2rem;
     margin: 1.5rem 6rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
 
     .project-name {
         font-size: 1.3rem;
@@ -136,8 +138,9 @@
     }
     .responsibilities {
         font-size: 1.1rem;
+        font-weight: 600;
         padding: 1.3rem 0;
-        border-top: 1px solid #b9a19555;
+        border-top: 1px solid #ffe3d52c;
         margin: 0 -2rem 0 -2rem;;
         width: calc(100% + 4rem);
 
@@ -149,5 +152,9 @@
           }
         }
     }
+}
+
+.project-card:hover {
+  background-color: rgba(253, 179, 150, 0.286);
 }
 </style>
