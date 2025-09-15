@@ -1,9 +1,9 @@
 :root {
-  --color-primary: #e05635;  
+  --color-primary: #d54b29;  
   --color-secondary: #fff8f4; 
   --color-accent: #3f567f;  
   --color-background: #ae4009; 
-  --color-text: #351500;
+  --color-text: #20213c;
 }
 
 /* Optional: set some base styles */
@@ -11,6 +11,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: system-ui, sans-serif;
-  background: var(--color-background);
+  background: url('/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: var(--color-text);
 }
