@@ -57,7 +57,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 3rem;
+  padding-top: 2rem;
   box-sizing: border-box;
   box-shadow: 4px 0 8px -4px rgba(0, 0, 0, 0.2);
 }
@@ -66,15 +66,15 @@
   text-decoration: none;
   color: var(--color-secondary);
   width: 100%;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.2);
 }
 
 .main-link {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   background-color: #a6c9fa;
-  padding: 2rem;
+  padding: 1rem;
   transition: background-color 0.3s ease;
 }
 
@@ -86,13 +86,13 @@
   display: flex;
   flex-direction: column;
   width: 90%;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .rows {
   display: flex;
   align-items: center;
-  padding: 1.2rem 1.2rem;
+  padding: 1rem 1rem;
   text-decoration: none;
   color: var(--color-text);
   border-radius: 8px;
@@ -106,13 +106,13 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 2rem;
+  gap: 0.2rem;
+  font-size: 1.3rem;
 }
 
 .icon {
-  width: 3rem;
-  height: 2.5rem;
-  margin-right: 0.5rem;
+  width: 2rem;
+  height: 1.5rem;
+  margin-right: 0.2rem;
 }
 </style>

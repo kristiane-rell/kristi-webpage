@@ -48,8 +48,8 @@
 .title {
     display: flex;
     justify-content: center;
-    font-size: 3rem;
-    margin: 2rem;
+    font-size: 1.8rem;
+    margin: 1rem;
     font-weight: bold;
     color: var(--color-secondary);
 }
@@ -57,33 +57,33 @@
 .experience-card {
     background-color: var(--color-secondary);
     border-radius: 12px;
-    padding: 3rem;
-    margin: 2rem 4rem;
+    padding: 2rem;
+    margin: 1.5rem 3rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
     .role {
-        font-size: 2rem;
+        font-size: 1.3rem;
         font-weight: bold;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.2rem;
     }
     .company {
-        font-size: 1.5rem;
-        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+        margin-bottom: 0.2rem;
     }
     .location {
-        font-size: 1.2rem;
-        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        margin-bottom: 0.2rem;
     }
     .dates {
-        font-size: 1.3rem;
-        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        margin-bottom: .7rem;
     }
     .responsibilities {
-        font-size: 1.52rem;
-        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+        margin-bottom: 0.3rem;
 
         div {
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.2rem;
         }
     }
 }
