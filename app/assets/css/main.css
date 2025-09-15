@@ -1,0 +1,16 @@
+:root {
+  --color-primary: #e05635;  
+  --color-secondary: #d174d2; 
+  --color-accent: #3f567f;  
+  --color-background: #412653; 
+  --color-text: #ffffff;
+}
+
+/* Optional: set some base styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--color-background);
+  color: var(--color-text);
+}
