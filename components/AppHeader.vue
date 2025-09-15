@@ -71,15 +71,15 @@
 }
 
 .main-link {
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: center;
-  background-color: #a6c9fa;
+  background-color: var(--color-primary);
   padding: 1rem;
   transition: background-color 0.3s ease;
 }
 
 .main-link:hover {
-  background-color: #7d97bd;
+  background-color: #ee6825;
 }
 
 .link-rows {
@@ -100,7 +100,7 @@
 }
 
 .rows:hover {
-  background-color: #d7d7d755;
+  background-color: #ffdece55;
 }
 
 .link {
