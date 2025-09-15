@@ -12,6 +12,9 @@ export default defineNuxtConfig({
       tsconfigPaths()
     ]
   },
+  app: {
+    baseURL: '/',
+  },
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
