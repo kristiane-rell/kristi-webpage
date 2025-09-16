@@ -92,6 +92,12 @@
   </div>
 </template>
 
+<script setup>
+  useHead({
+    title: 'Projects'
+  })
+</script>
+
 <style scoped>
 .project-page {
   width: 82vw;

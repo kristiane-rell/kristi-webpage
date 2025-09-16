@@ -4,6 +4,12 @@
   </div>
 </template>
 
+<script setup>
+  useHead({
+    title: 'Coursework'
+  })
+</script>
+
 <style scoped>
 .coursework-page {
   width: 82vw;

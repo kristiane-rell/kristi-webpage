@@ -4,6 +4,12 @@
   </div>
 </template>
 
+<script setup>
+  useHead({
+    title: 'Extrracurriculars'
+  })
+</script>
+
 <style scoped>
 .coursework-page {
   width: 82vw;
@@ -11,5 +17,4 @@
   display: flex;
   justify-content: center;
 }
-
 </style>

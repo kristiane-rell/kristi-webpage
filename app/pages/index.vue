@@ -15,9 +15,14 @@
         <img src="/images/headshot.jpg" alt="headshot" />
       </div>  
     </div>
-    
   </div>
 </template>
+
+<script setup>
+  useHead({
+    title: 'Home'
+  })
+</script>
 
 <style scoped>
 .home-page {
