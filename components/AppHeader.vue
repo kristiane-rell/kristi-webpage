@@ -48,10 +48,9 @@
 
 <style scoped>
 .app-header {
-  background-color: var(--color-secondary);
+  background-color: #ffffff52;
   position: fixed;
   top: 0;
-  color: var(--color-text);
   width: 18vw;
   height: 100vh;
   display: flex;
@@ -64,7 +63,8 @@
 
 .main-row {
   text-decoration: none;
-  color: var(--color-secondary);
+  color: #effffc;
+  font-weight: bold;
   width: 100%;
   margin-bottom: 2rem;
   box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.2);
@@ -73,13 +73,14 @@
 .main-link {
   font-size: 1.7rem;
   text-align: center;
-  background-color: var(--color-primary);
+  background-color: #0e5b52;
   padding: 1rem;
   transition: background-color 0.3s ease;
 }
 
 .main-link:hover {
-  background-color: #ee6825;
+  background-color: #015c51c2;
+  color: #ffffff;
 }
 
 .link-rows {
@@ -94,13 +95,14 @@
   align-items: center;
   padding: 1rem 1rem;
   text-decoration: none;
-  color: var(--color-text);
+  color: #00423a;
+  font-weight: bold;
   border-radius: 8px;
   transition: background-color 0.3s ease;
 }
 
 .rows:hover {
-  background-color: #ffdece55;
+  background-color: #59b9aa3b;
 }
 
 .link {
