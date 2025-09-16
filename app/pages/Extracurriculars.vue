@@ -1,13 +1,15 @@
 <template>
-  <div>
-    <h1>Extracurriculars</h1>
+  <div class="coursework-page">
+    <h1>Coming Soon!</h1>
   </div>
 </template>
 
 <style scoped>
-div {
-    padding-left: 3rem;
-    margin-left: 3rem;
+.coursework-page {
+  width: 82vw;
+  margin-left: 18vw;
+  display: flex;
+  justify-content: center;
 }
 
 </style>

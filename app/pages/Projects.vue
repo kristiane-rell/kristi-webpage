@@ -110,12 +110,12 @@
     font-size: 1.8rem;
     margin: 1rem;
     font-weight: bold;
-    color: var(--color-secondary);
+    color: #00423a;
 }
 
 .project-card {
-    background-color: #fff8f42d;
-    color: var(--color-secondary);
+    background-color: #00665ec1;
+    color: #e5fffc;
     border-radius: 1.5rem;
     padding: 2rem;
     margin: 1.5rem 6rem;
@@ -140,7 +140,7 @@
         font-size: 1.1rem;
         font-weight: 600;
         padding: 1.3rem 0;
-        border-top: 1px solid #ffe3d52c;
+        border-top: 1px solid #2f9692a0;
         margin: 0 -2rem 0 -2rem;;
         width: calc(100% + 4rem);
 
@@ -155,6 +155,6 @@
 }
 
 .project-card:hover {
-  background-color: rgba(253, 179, 150, 0.286);
+  background-color: rgba(0, 117, 113, 0.784);
 }
 </style>

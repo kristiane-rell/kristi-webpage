@@ -92,11 +92,11 @@
   font-size: 1.8rem;
   margin: 1rem;
   font-weight: bold;
-  color: var(--color-secondary);
+  color: #00423a;
 }
 
 .experience-card {
-    background-color: #fff8f42d;
+    background-color: #2b7e50b9;
     color: var(--color-secondary);
     border-radius: 1.5rem;
     padding: 2rem;
@@ -122,7 +122,7 @@
         font-size: 1.1rem;
         font-weight: 600;
         padding: 1.3rem 0;
-        border-top: 1px solid #ffe3d52c;
+        border-top: 1px solid #84cca62c;
         margin: 0 -2rem 0 -2rem;;
         width: calc(100% + 4rem);
 
@@ -137,6 +137,6 @@
 }
 
 .experience-card:hover {
-  background-color: rgba(253, 179, 150, 0.286);
+  background-color: rgba(55, 134, 92, 0.708);
 }
 </style>
