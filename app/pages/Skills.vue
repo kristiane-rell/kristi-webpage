@@ -10,11 +10,11 @@
           <div class="text">
             <ul>
               <li>Python</li>
-              <li>C++</li>
               <li>Java (Spring Boot)</li>
               <li>C</li>
-              <li>Assembly (x86, MIPS, z-Arch)</li>
-              <li>JavaScript (Vue.JS/Nuxt.js)</li>
+              <li>C++</li>
+              <li>Assembly<br>(x86, MIPS, z-Arch)</li>
+              <li>JavaScript<br>(Vue.JS/Nuxt.js)</li>
               <li>SQL</li>
               <li>Z3</li>
             </ul>
@@ -55,6 +55,8 @@
               <li>Podman</li>
               <li>Docker</li>
               <li>Docker Compose</li>
+              <li>Minikube</li>
+              <li>Ingress</li>
               <li>MySQL</li>
               <li>MongoDB</li>
             </ul>
@@ -131,6 +133,10 @@
 
 .skills-card:last-child {
   margin-right: 3rem; /* or any value you prefer */
+}
+
+.skills-card:hover {
+  background-color: #347a80cc;
 }
 
 .title {
