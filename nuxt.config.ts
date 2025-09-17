@@ -13,7 +13,16 @@ export default defineNuxtConfig({
     ]
   },
   app: {
-    baseURL: '/',
+    head: {
+      titleTemplate: '%s - Kristi Rell',   // lets you append page titles
+      title: 'Portfolio',                // default title
+      htmlAttrs: {
+        lang: 'en'
+      },
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      ]
+    }
   },
   modules: [
     '@nuxt/content',

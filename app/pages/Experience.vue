@@ -74,6 +74,12 @@
   </div>
 </template>
 
+<script setup>
+  useHead({
+    title: 'Experience'
+  })
+</script>
+
 <style scoped>
 .experience-page {
   width: 82vw;
@@ -119,20 +125,20 @@
         font-size: 1.1rem;
     }
     .responsibilities {
-        font-size: 1.1rem;
-        font-weight: 600;
-        padding: 1.3rem 0;
-        border-top: 1px solid #84cca62c;
-        margin: 0 -2rem 0 -2rem;;
-        width: calc(100% + 4rem);
+      font-size: 1.1rem;
+      font-weight: 600;
+      padding: 1.3rem 0;
+      border-top: 1px solid #84cca62c;
+      margin: 0 -2rem 0 -2rem;
+      width: calc(100% + 4rem);
 
-        .text {
-          margin: 0 2rem;
+      .text {
+        margin: 0 2rem;
 
-          br {
-            margin-bottom: 0.3rem;
-          }
+        br {
+          margin-bottom: 0.3rem;
         }
+      }
     }
 }
 

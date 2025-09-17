@@ -10,14 +10,23 @@
         <br >
         <br>
         I'm currently seeking full-time opportunities in software or firmware engineering & development.
+        <br>
+        <a href="/files/resume.pdf" download>
+          <button class="download-btn">Download Resume</button>
+        </a>
       </div>
       <div class="picture">
         <img src="/images/headshot.jpg" alt="headshot" />
       </div>  
     </div>
-    
   </div>
 </template>
+
+<script setup>
+  useHead({
+    title: 'Home'
+  })
+</script>
 
 <style scoped>
 .home-page {
@@ -43,7 +52,7 @@
 
 
 .text {
-  padding: 2rem;
+  padding: 2.5rem;
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--color-secondary);
@@ -63,5 +72,28 @@
   border-radius: 2rem;
   background-color:  #00423a95;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.bio-card:hover {
+  background-color: #00504795;
+}
+
+.download-btn {
+  background-color: #84cca6;
+  color: var(--color-secondary);
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.8rem 1.5rem;
+  margin: 1rem 10rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #9ad7b6;
 }
 </style>
